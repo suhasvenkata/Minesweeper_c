@@ -165,6 +165,7 @@ int main() {
 
     printf("Welcome to Minesweeper!\n");
     printf("Enter coordinates to reveal the cell (row column)\n");
+    printf("Caution if you hit the mine you loose the game\n");
 
     while (gameStatus == 0) {
         printGrid();
@@ -190,8 +191,6 @@ int main() {
         revealGrid(row, col);
         gameStatus = checkGameEnd();
     }
-
-    // Free memory for linked list (for simplicity, it's not implemented here)
 
     return 0;
 }
