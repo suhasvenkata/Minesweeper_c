@@ -1,5 +1,3 @@
 # Minesweeper_c
 
-This was my third sem DSA(Data Structures and Applications) mini project. So this is the general minesweeper game present in the windows.
-This game is made using linked list for traversing through the rows and columns, and rand() function is used in the game for placing the mines randomly. Similarly other functionalities are created accordingly for the game to work properly.
-Any changes, please feel free to commit
+In our third semester, We developed a Minesweeper game for my Data Structures and Applications (DSA) mini project. This rendition mirrors the classic Minesweeper found on Windows systems. The implementation involves the utilization of linked lists to navigate through the rows and columns. Mines are placed randomly within the game grid using the rand() function. To ensure the game's functionality, various other features were designed and integrated as per the game's requirements. If any alterations are deemed necessary, please feel free to make adjustments or suggest modifications.
